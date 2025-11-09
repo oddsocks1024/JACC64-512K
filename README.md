@@ -1,11 +1,13 @@
 # JACC64-512K
+![JACC64-512K](images/1.jpg)
+![JACC64-512K](images/4.jpg)
 
 ## Description
 JACC64-512K: Just Another Commodore Cartridge.
 
 A cartridge for the Commodore 64 that holds 32 selectable 16K ROM images
 
-Additional Features:
+**Additional Features**
 * Power LED
 * Reset Switch
 
@@ -13,17 +15,16 @@ Additional Features:
 
 | Qty | Component                              |
 |:---:|----------------------------------------|
-| 1   | 5mm LED (D3)                           |
+| 1   | 5mm LED                                |
 | 1   | 6mm Tactile Push Button                |
-| 1   | 1 x 330Ω Axial Resistor - ¼ watt (LED) |
-| 6   | 10KΩ Axial Resistor - ¼ watt           |
+| 1   | 330Ω Axial Resistor - ¼ watt (LED)     |
+| 6   | 10KΩ Axial Resistors - ¼ watt          |
 | 2   | 1N4148 Diodes                          |
 | 1   | 100nF Ceramic Capacitor                |
 | 1   | 5-pole DIP Switch                      |
 | 1   | SST39SF040 EEPROM (or compatible)      |
-| 1   | 32pin DIP Wide IC Socket (optional)    |
 
-
+* IC sockets optional
 * The LED resistor is nominally 330Ω but anything up to 1K is fine
 * You will need to join 32 x 16K ROM images together into a single image before burning to the EEPROM
 * Smaller EEPROMs could be used, but will obviously hold fewer images and the DIP switch should be set accordingly
