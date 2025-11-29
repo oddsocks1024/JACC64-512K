@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "909b7dac-0974-4e5d-9c50-58b3c8636cdb")
 	(paper "A3")
+	(title_block
+		(title "JACC64-512K")
+		(rev "1.1")
+		(company "Oddsocks b5s4")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -2780,7 +2785,7 @@
 	(junction
 		(at 199.39 191.77)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 0 0 0 1)
 		(uuid "6f78341d-05eb-48eb-ac07-ccc56114bd08")
 	)
 	(junction
@@ -2792,7 +2797,7 @@
 	(junction
 		(at 199.39 181.61)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 0 0 0 1)
 		(uuid "7b71236e-7f07-411e-a5bf-9a8fa4a6cabe")
 	)
 	(junction
@@ -2804,7 +2809,7 @@
 	(junction
 		(at 162.56 77.47)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 255 0 0 1)
 		(uuid "8b35c525-1d2b-49c7-b088-2b1d0458fb74")
 	)
 	(junction
@@ -2882,7 +2887,7 @@
 	(junction
 		(at 129.54 163.83)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 255 153 0 1)
 		(uuid "f683c3da-fa85-46e8-83c2-e689dfcfc6fc")
 	)
 	(no_connect
